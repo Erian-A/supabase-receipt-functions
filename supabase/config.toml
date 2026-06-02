@@ -1,0 +1,10 @@
+project_id = "receipt-functions"
+
+[functions.get-receipts]
+verify_jwt = true
+
+[functions.latest-receipt-health]
+verify_jwt = true
+
+[functions.receita-parser]
+verify_jwt = true

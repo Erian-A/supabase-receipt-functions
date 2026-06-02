@@ -1,0 +1,17 @@
+{
+  "name": "receipt-functions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Supabase Edge Functions for receipt processing",
+  "scripts": {
+    "serve": "supabase functions serve",
+    "deploy": "supabase functions deploy",
+    "deploy:get-receipts": "supabase functions deploy get-receipts",
+    "deploy:latest-receipt-health": "supabase functions deploy latest-receipt-health",
+    "deploy:receita-parser": "supabase functions deploy receita-parser",
+    "link": "supabase link"
+  },
+  "devDependencies": {
+    "supabase": "^1.200.3"
+  }
+}
